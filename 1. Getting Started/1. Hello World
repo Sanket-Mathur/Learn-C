@@ -31,6 +31,6 @@ main()
 Also since this is your first step towards learning C, you should know that the part I'm writing to breakdown and explain the code are commented out.
 Definition: Comments are the parts/lines of the code that are ignored by the complier.
 Comments are used by the programmers for their personal use as well as explaining their code to others.
-'// for an example' defines a single line comment while
+'// for an example' defines a single line comment like the one after the printf function while
 the opertors you can see at the beginning and end of this paragraph are used for opening and closing milti-line comments.
 */
