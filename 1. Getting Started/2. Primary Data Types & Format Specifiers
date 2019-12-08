@@ -3,8 +3,8 @@
 /*
 There are two basic types of data types i.e. Primary and User-Defined data types.
 In this program, we will talk about the Primary data types or the primitive or built-in data types.
-Definition: Primary data types are the data types built-in within the language with a fixed memory allocation.
-In C there are 4 primitive data types viz. character, integer, float and void.
+Definition: Primary data types are the data types built-in within the language with a fixed memory allocation,
+in C there are 4 primitive data types viz. character, integer, float and void.
 */
 
 main()
