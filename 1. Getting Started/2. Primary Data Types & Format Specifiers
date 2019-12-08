@@ -46,7 +46,8 @@ main()
   There is another data type void which means no value.
   This is usually used to specify the type of functions which returns nothing.
   */
-
+  
+  // The \n character used within the print statements is the newline character. You will get to see more of these in the future.
 }
 
 /*
