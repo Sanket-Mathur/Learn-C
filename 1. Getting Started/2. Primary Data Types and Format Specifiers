@@ -1,0 +1,108 @@
+#include<stdio.h>
+
+main()
+{
+
+  char c = 'A';
+  printf("%c \n", c);
+
+  /*
+  There are two types of characters viz.
+  1. signed char having a range from -128 to +127 and taking 1 byte
+  2. unsigned char having a range from 0 to +255 and taking 1 byte as well
+  */
+
+  int i = 15;
+  printf("%d %i \n", i, i);
+
+  /*
+  There are six types of integers viz.
+  1. int having a range of -2,147,483,648 to 2,147,483,647 and taking 4 bytes
+  2. unsigned int having a range of 0 to 4,294,967,295 and taking 4 bytes
+  3. short having a range of -32,768 to 32,767 and taking 2 bytes
+  4. unsigned short having a range of 0 to 65,535 and taking 2 bytes
+  5. long having a range of -9223372036854775808 to 9223372036854775807 and taking 8 bytes
+  6. unsgned long having a range of 0 to 18446744073709551615 and taking 8 bytes
+  */
+
+  float f = 15.2122;
+  printf("%g %G %f %e %E \n", f, f, f, f, f);
+
+  /*
+  There are three types of floating point decimal viz.
+  1. float having a range of 1.2E-38 to 3.4E+38 with 6 decimal precision and taking 4 bytes
+  2. double having a range of 2.3E-308 to 1.7E+308 with 15 decimal precision and taking 8 bytes
+  3. long double having a range of 3.4E-4932 to 1.1E+4932 with 19 decimal precision and taking 10 bytes
+  */
+
+  /*
+  There is another data type void which means no value. This is usually used to specify the type of functions which returns nothing.
+  */
+
+}
+
+/*
+Talking about the type specifiers also called the place holders are use to define the type of variable.
+Various different type specifiers are used for printing thye variable in different formats.
+Here's a list of type specifiers for you to use.
+%c				        Character					          	        char
+											                                  unsigned char
+--------------------------------------------------------------------------------
+%d				        Signed Integer					              short
+											                                  unsigned short
+										            	                      int
+										            	                      long
+--------------------------------------------------------------------------------
+%e or %E			    Scientific notation of float values		float
+											                                  double
+--------------------------------------------------------------------------------
+%f				        Floating point					              float
+--------------------------------------------------------------------------------
+%g or %G			    Similar as %e or %E				            float
+											                                  double
+--------------------------------------------------------------------------------
+%hi				        Signed Integer(Short)				          short
+--------------------------------------------------------------------------------
+%hu				        Unsigned Integer(Short)				        unsigned short
+--------------------------------------------------------------------------------
+%i				        Signed Integer					              short
+											                                  unsigned short
+											                                  int
+											                                  long
+--------------------------------------------------------------------------------
+%l or %ld or %li		Signed Integer					long
+--------------------------------------------------------------------------------
+%lf				Floating point					double
+--------------------------------------------------------------------------------
+%Lf				Floating point					long double
+--------------------------------------------------------------------------------
+%lu				Unsigned integer					unsigned int
+											unsigned long
+--------------------------------------------------------------------------------
+%lli, %lld			Signed Integer					long long
+--------------------------------------------------------------------------------
+%llu				Unsigned Integer					unsigned long long
+--------------------------------------------------------------------------------
+%o				Octal representation of Integer.		short
+											unsigned short
+											int
+											unsigned int
+											long
+--------------------------------------------------------------------------------
+%p				Address of pointer to void void *		void *
+--------------------------------------------------------------------------------
+%s				String						char *
+--------------------------------------------------------------------------------
+%u				Unsigned Integer					unsigned int
+											unsigned long
+--------------------------------------------------------------------------------
+%x or %X			Hexadecimal representation of			short
+				Unsigned Integer					unsigned short
+											int
+											unsigned int
+											long
+--------------------------------------------------------------------------------
+%n				Prints nothing
+--------------------------------------------------------------------------------
+%%				Prints % character
+*/
