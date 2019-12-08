@@ -1,5 +1,12 @@
 #include<stdio.h>
 
+/*
+There are two basic types of data types i.e. Primary and User-Defined data types.
+In this program, we will talk about the Primary data types or the primitive or built-in data types.
+Definition: Primary data types are the data types built-in within the language with a fixed memory allocation.
+In C there are 4 primitive data types viz. character, integer, float and void.
+*/
+
 main()
 {
 
@@ -22,7 +29,7 @@ main()
   3. short having a range of -32,768 to 32,767 and taking 2 bytes
   4. unsigned short having a range of 0 to 65,535 and taking 2 bytes
   5. long having a range of -9223372036854775808 to 9223372036854775807 and taking 8 bytes
-  6. unsgned long having a range of 0 to 18446744073709551615 and taking 8 bytes
+  6. unsigned long having a range of 0 to 18446744073709551615 and taking 8 bytes
   */
 
   float f = 15.2122;
@@ -36,7 +43,8 @@ main()
   */
 
   /*
-  There is another data type void which means no value. This is usually used to specify the type of functions which returns nothing.
+  There is another data type void which means no value.
+  This is usually used to specify the type of functions which returns nothing.
   */
 
 }
@@ -45,64 +53,21 @@ main()
 Talking about the type specifiers also called the place holders are use to define the type of variable.
 Various different type specifiers are used for printing thye variable in different formats.
 Here's a list of type specifiers for you to use.
-%c				        Character					          	        char
-											                                  unsigned char
---------------------------------------------------------------------------------
-%d				        Signed Integer					              short
-											                                  unsigned short
-										            	                      int
-										            	                      long
---------------------------------------------------------------------------------
-%e or %E			    Scientific notation of float values		float
-											                                  double
---------------------------------------------------------------------------------
-%f				        Floating point					              float
---------------------------------------------------------------------------------
-%g or %G			    Similar as %e or %E				            float
-											                                  double
---------------------------------------------------------------------------------
-%hi				        Signed Integer(Short)				          short
---------------------------------------------------------------------------------
-%hu				        Unsigned Integer(Short)				        unsigned short
---------------------------------------------------------------------------------
-%i				        Signed Integer					              short
-											                                  unsigned short
-											                                  int
-											                                  long
---------------------------------------------------------------------------------
-%l or %ld or %li		Signed Integer					long
---------------------------------------------------------------------------------
-%lf				Floating point					double
---------------------------------------------------------------------------------
-%Lf				Floating point					long double
---------------------------------------------------------------------------------
-%lu				Unsigned integer					unsigned int
-											unsigned long
---------------------------------------------------------------------------------
-%lli, %lld			Signed Integer					long long
---------------------------------------------------------------------------------
-%llu				Unsigned Integer					unsigned long long
---------------------------------------------------------------------------------
-%o				Octal representation of Integer.		short
-											unsigned short
-											int
-											unsigned int
-											long
---------------------------------------------------------------------------------
-%p				Address of pointer to void void *		void *
---------------------------------------------------------------------------------
-%s				String						char *
---------------------------------------------------------------------------------
-%u				Unsigned Integer					unsigned int
-											unsigned long
---------------------------------------------------------------------------------
-%x or %X			Hexadecimal representation of			short
-				Unsigned Integer					unsigned short
-											int
-											unsigned int
-											long
---------------------------------------------------------------------------------
-%n				Prints nothing
---------------------------------------------------------------------------------
-%%				Prints % character
+char/signed char/unsigned char - %c
+int - %d, %i
+unsigned int - %lu, %u
+short - %d, %hi, %i
+unsigned short - %d, %hu, %i
+long - %d, %i, %l, %ld, %li
+unsigned long - %lu, %u
+float - %e, %E, %f, %g, %G
+double - %e, %E, %f, %g, %G, %lf
+long double - %Lf
+Some extra format specifiers for further use of the C programing language.
+long long - %lli, %lld
+unsigned long - %llu
+octal representation of any Integer type - %o
+hexadecimal representation of any integer type - %x, %X
+void * - %p
+char * - %s
 */
