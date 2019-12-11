@@ -51,8 +51,8 @@ main()
 }
 
 /*
-Talking about the type specifiers also called the place holders are use to define the type of variable.
-Various different type specifiers are used for printing thye variable in different formats.
+Talking about the format specifiers also called the place holders are use to define the format of variable.
+Various different format specifiers are used for printing the variable in different formats.
 Here's a list of type specifiers for you to use.
 char/signed char/unsigned char - %c
 int - %d, %i
