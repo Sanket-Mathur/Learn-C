@@ -19,6 +19,7 @@ int product(int x, int y);
 This is a function prototype which tells the compiler that this function exist somewhere in the program.
 It is important to use a function prototype if you are defining the function below the main function.
 Function Prototype consists of a terminator(;) instead of function definition.
+It can also be defined as int product(int, int);
 */
 
 main()
@@ -40,3 +41,9 @@ int product(int x, int y)
   return result;
 }
 // This is the definition of function product whose prototype is deployed above.
+
+/*
+Another thing while using user defined functions is that default arguments can also be used. eg. int func( int a, int b = 0) 
+It has a default argument so in case of in the main function, func(x) or func(y) is used instead of func(x,y)
+It will pass the argument as a and will be taken to 0 by the function.
+*/
