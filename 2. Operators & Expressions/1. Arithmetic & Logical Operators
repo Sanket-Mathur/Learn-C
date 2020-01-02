@@ -10,6 +10,7 @@ main()
 
   /*
   Arithmetic Operators: These are the operators which consists the properties of regular operations.
+  These all are binary operators since each of them deal with two values or elements.
   There are 5 basic arithmetic operators:
   + : it returns sum of two numbers
   - : it returns difference between two numbers
