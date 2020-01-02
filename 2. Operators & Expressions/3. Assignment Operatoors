@@ -22,8 +22,8 @@ main()
   >>= i.e. Right Shift and Assign operator
   <<= i.e. Left Shift and Assign operator
   &= i.e. Bitwise And and Assign operator
-  |= i.e. Bitwise Inclusive Or and Assign operator
-  ^= i.e. Bitwise Exclusive Or and Assign operator
+  |= i.e. Bitwise Or and Assign operator
+  ^= i.e. Bitwise Xor and Assign operator
   Now I know that you might not know about last five operators but you are going to learn about them in the next program.
   */
   
