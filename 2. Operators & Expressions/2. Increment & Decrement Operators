@@ -10,6 +10,7 @@ main()
 
   /*
   There are 2 increment and 2 decrement operators.
+  These opators are primary operators since each of them deals with one element.
   Let x be any variable,
   ++x is called as pre increment and changes the value to x to 1 higher before using it.
   x++ is called as post increment and changes the value to x to 1 higher after using it.
