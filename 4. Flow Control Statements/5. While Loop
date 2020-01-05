@@ -1,1 +1,26 @@
+#include<stdio.h>
 
+main()
+{
+    
+    /*
+    You already know about the for loop but it is not the only way for iteration of statements.
+    The syntax for a while loop is:
+    declaration
+    while(condition)
+    {
+        statement
+        upgradation
+    }
+    */
+    
+    int i = 1;
+    while(i<=5)
+    {
+        printf("Hello %d\n",i);
+        i++;
+    }
+    
+    // Most of the tasks can be performed by any loop but some are more efficient with a particular one.
+    
+}
