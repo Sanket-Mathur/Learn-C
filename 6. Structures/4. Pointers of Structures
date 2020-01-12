@@ -5,8 +5,13 @@ struct MyStruct
     int x, y;
 };
 
-main()
+int main()
 {
+    /*
+    I'm here using int main() and returning 0 in the end juct because I was feeling like using it.
+    Also in modern compilers, it gives a warning if using just main().
+    Neither does it effect, feel free to use this to remove it.
+    */
     
     /*
     Pointers to structures are a little bit defferent than usual but it is obvious that they cannot be for object members.
@@ -29,4 +34,5 @@ main()
     printf("%d %d\n", (*ptr).x, (*ptr).y);
     printf("%d %d\n", ptr->x, ptr->y);
     
+    return 0;
 }
