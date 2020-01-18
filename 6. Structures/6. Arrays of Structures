@@ -1,1 +1,14 @@
+#include <stdio.h>
 
+struct details
+{
+    int a;
+};
+
+int main()
+{
+    struct details arr_struct[5];
+    scanf("%d %d %d %d %d", &arr_struct[0].a, &arr_struct[1].a, &arr_struct[2].a, &arr_struct[3].a, &arr_struct[4].a);
+    printf("%d %d %d %d %d", arr_struct[0].a, arr_struct[1].a, arr_struct[2].a, arr_struct[3].a, arr_struct[4].a);
+    return 0;
+}
