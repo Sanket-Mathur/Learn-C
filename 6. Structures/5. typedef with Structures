@@ -1,1 +1,14 @@
+#include <stdio.h>
 
+typedef struct MyStruct
+{
+    int a, b;
+}my;
+
+int main ()
+{
+    my a;
+    scanf("%d %d", &a.a, &a.b);
+    printf("%d %d", a.a, a.b);
+    return 0;
+}
