@@ -1,11 +1,11 @@
 /*
 Let's get started with a little Hello World program
 First let me introduce you to the standard libraries or better known header files
-Definition: The standard library is a collection of standard programs stored for immidiate use of functions and operations.
+Definition: The standard library is a collection of standard programs stored for immediate use of functions and operations.
 These are basically some pieces of code that can be included in a program for using the functions pre-written in it.
 In order to include these into your program, use
 #include<header>
-while the header is replaced by the name of the library. These librarioes generally works with an extension of .h
+while the header is replaced by the name of the library. These libraries generally works with an extension of .h
 More on several header files and their functions in further programs.
 stdio is a standard input output library used for the basic function
 */
@@ -22,7 +22,7 @@ Here no data type is defined for the main function but this won't effect in case
 main()
 {
 
-  printf("Helllo World!");
+  printf("Hello World!");
 
   // printf is a common output method and this function is written under the header file stdio.h
 }
