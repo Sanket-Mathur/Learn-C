@@ -7,22 +7,22 @@ main()
   /*
   An expression is a combination of various operations and numeric values as themselves or as variables storing them.
   The precedence order is the order in which the operations are performed in an expression.
-  Here is the precedence order followed in a c program:
-  [] () -> .
-  ! ~ ++ --
-  * / %
-  + -
-  << >>
-  < <= > >=
-  == !=
-  &
-  ^
-  |
-  &&
-  ||
-  ?:
-  = += -= *= /= %= &= ^= |= <<= >>=
-  ,
+  Here is the precedence order and assiciativity followed in a c program:
+  [] () -> .                           Left to Right
+  ! ~ ++ -- + - * & (type) sizeof      Right to Left
+  * / %                                Left to Right
+  + -                                  Left to Right
+  << >>                                Left to Right
+  < <= > >=                            Left to Right
+  == !=                                Left to Right
+  &                                    Left to Right
+  ^                                    Left to Right
+  |                                    Left to Right
+  &&                                   Left to Right
+  ||                                   Left to Right
+  ?:                                   Right to Left
+  = += -= *= /= %= &= ^= |= <<= >>=    Right to Left
+  ,                                    Left to Right
   */
   
   a += 5 + 3 * 2 - (8 - ++a);
